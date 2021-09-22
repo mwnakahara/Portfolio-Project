@@ -99,3 +99,45 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .launch-app-link {
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width: 316px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+  p,
+  .app-description {
+    font-size: 15px;
+  }
+  .navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 15px 10px;
+  }
+  .launch-app-link {
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+}
